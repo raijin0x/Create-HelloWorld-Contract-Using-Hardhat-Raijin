@@ -1,0 +1,20 @@
+{
+  "name": "berachain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "./node_modules/.bin/hardhat compile",
+    "deploy:berachain": "./node_modules/.bin/hardhat run scripts/deploy.ts --network berachainTestnet",  
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox-viem": "^1.0.0",
+    "@nomicfoundation/hardhat-viem": "^1.0.2",
+    "dotenv": "^16.3.1",
+    "hardhat": "^2.19.4",
+    "viem": "^1.21.4"
+  }
+}
